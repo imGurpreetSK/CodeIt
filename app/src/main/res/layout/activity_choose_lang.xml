@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LLayoutMain">
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_shape_c"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_color_c"
+        android:text="C"
+
+        android:id="@+id/c_button"
+        android:onClick="showCProgList"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_shape_cpp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_color_cpp"
+        android:text="C++"
+        android:id="@+id/cpp_button"
+        android:onClick="showCppProgList"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_shape_java"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_color_java"
+        android:text="JAVA"
+        android:id="@+id/java_button"
+        android:onClick="showJavaProgList"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_shape_algo"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_color_algo"
+        android:text="ALGORITHMS"
+        android:id="@+id/algo_button"
+        android:onClick="showAnyProgList"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            app:cb_color="#29B6F6"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_weight="1"
+            android:src="@drawable/share38"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:onClick="shareWithFriends"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

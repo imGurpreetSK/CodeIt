@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CodeIt</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Credits</string>
+    <string name="title_activity_choose_lang">ChooseLangActivity</string>
+    <string name="title_activity_cprog_list">CProgList</string>
+    <string name="title_activity_show_prog">ShowProg</string>
+    <string name="title_activity_cpp_prog_list">CppProgList</string>
+    <string name="title_activity_java_prog_list">JavaProgList</string>
+    <string name="title_activity_ada_prog_list">AdaProgList</string>
+    <string name="title_activity_settings">Credits</string>
+</resources>
