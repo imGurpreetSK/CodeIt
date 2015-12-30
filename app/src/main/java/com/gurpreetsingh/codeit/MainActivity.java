@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        //Thread for splash screen
+
         /**
          * CodeIt is a simple android app created to help CS/IT students with basic programs and concepts.
          It uses a SQLite database to store questions and code for three(3) different languages and basic algorithms implemented in C.
@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
          NOTE: The app is a test application to understand basics of android and the content is reliable to best of my knowledge.
          Any feedback is welcome.
          */
+
+        //Thread for splash screen
         Thread timer = new Thread(){
             @Override
             public void run() {
